@@ -15,14 +15,14 @@ int main(void)
 			{
 				if (c > b && b > a)
 				{
-				       putchar(a);
-				       putchar(b);
-				       putchar(c);
-				       if (a != '7' || b != '8' || c != '9')
-				       {
-					       putchar(',');
-					       putchar(' ');
-				       }
+					putchar(a);
+					putchar(b);
+					putchar(c);
+					if (a != '7' || b != '8')
+					{
+						putchar(',');
+						putchar(' ');
+					}
 				}
 			}
 		}
