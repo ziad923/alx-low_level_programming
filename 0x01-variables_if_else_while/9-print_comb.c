@@ -9,9 +9,9 @@ int main(void)
 
 	for (ch = '0'; ch <= '9'; ch++)
 	{
+		putchar(ch);
 		if (ch != 8)
 		{
-		putchar(ch);
 		putchar(',');
 		putchar(' ');
 		}
