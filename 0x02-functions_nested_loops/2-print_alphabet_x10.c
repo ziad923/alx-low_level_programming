@@ -1,10 +1,19 @@
 #include <stdio.h>
 /**
-*main - entry poit
-*Return: always 0 (success)
+*print_alphabet_x10 - print 10 times in lowercase,
+*followed by a new line
 */
-int main(void)
+void print_alphabet_x10(void)
 {
+	int ch, counter = 0;
 
-	return (0);
+	while (counter <= 10)
+	{
+		for (ch = 'a'; a <= 'z'; ch++)
+		{
+			_putchar(ch);
+		}
+		count++;
+		_putchar('\n');
+	}
 }
