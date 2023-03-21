@@ -12,11 +12,12 @@ void jack_bauer(void)
 	{
 		for (b = 0; b < 60; b++)
 		{
-			printf("%d", a / 10);
-			printf("%d", a % 10);
-			printf(":");
-			printf("%d", b / 10);
-			printf("%d\n", b % 10);
+			_putchar(a / 10 + '0');
+			_putchar(a % 10 + '0');
+			_putchar(':');
+			_putchar(b / 10 + '0');
+			_putchar(b % 10 + '0');
+			_putchar('\n');
 		}
 	}
 
