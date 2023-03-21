@@ -2,9 +2,22 @@
 
 /**
 * jack_bauer - prints every minute of the day of Jack Bauer
- * starting from 00:00 to 23:59
+* starting from 00:00 to 23:59
 */
-oid jack_bauer(void)
+void jack_bauer(void)
 {
+	int a, b;
+
+	for (a = 0; a < 24; a++)
+	{
+		for (b = 0; b < 60; b++)
+		{
+			printf("%d", a / 10);
+			printf("%d", a % 10);
+			printf(":");
+			printf("%d", b / 10);
+			printf("%d\n", b % 10);
+		}
+	}
 
 }
